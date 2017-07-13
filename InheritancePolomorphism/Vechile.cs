@@ -48,16 +48,15 @@ namespace InheritancePolomorphism
 
             distanceTraveled = 0.0d;
         }
-        public void Move()
+        public virtual void Move()
         {
             distanceTraveled += movementSpeed;
         }
-
-        public string GetDistanceTravled()
+        
+        public virtual string GetDistanceTraveled()
         {
-            return "Distance Traveled:" + distanceTraveled;
+            return "Distance Traveled:" + distanceTraveled + "\n";
         }
-
     }
 
 
