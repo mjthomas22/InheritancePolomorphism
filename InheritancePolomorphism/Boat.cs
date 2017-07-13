@@ -10,6 +10,11 @@ namespace InheritancePolomorphism
     {
         private double waterDrag;
 
+
+        public Boat()
+        {
+
+        }
         public Boat(int seats, int carryingCapacity, string color, double movementSpeed, double waterDrag)
         {
             this.seats = seats;
